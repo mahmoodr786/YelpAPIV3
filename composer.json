@@ -1,0 +1,10 @@
+{
+    "name": "mahmoodr786/yelpv3",
+    "description": "Yelp API V3 PHP Class",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "mashape/unirest-php": "^3.0"
+    }
+}
