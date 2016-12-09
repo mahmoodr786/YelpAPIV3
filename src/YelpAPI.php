@@ -1,5 +1,5 @@
 <?php
-namespace mahmoodr786;
+namespace mahmoodr786\YelpAPI;
 
 use Exception;
 

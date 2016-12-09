@@ -1,7 +1,7 @@
 <?php
 
-require "yelp.php";
-use mahmoodr786\YelpAPI;
+require "vendor/autoload.php";
+mahmoodr786\YelpAPI\YelpAPI;
 
 $api = new YelpAPI(
     'clientID',
