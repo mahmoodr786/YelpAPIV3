@@ -8,7 +8,7 @@ $api = new YelpAPI(
     'secret'
 );
 $params = [
-	'term' => 'clubs',
+	'term' => 'food',
 	'radius' => '500',
 	'location' => '20124'
 ];
