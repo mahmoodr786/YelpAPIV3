@@ -2,6 +2,7 @@
 A PHP Class for Yelp API V3
   - Manages access token
   - Adds the token to headers with every request.
+
 ### Installation
 
 ```sh
@@ -28,7 +29,7 @@ Query
 $params = [
 	'term' => 'food',
 	'radius' => '500',
-	'location' => '840124'
+	'location' => '84123'
 ];
 $data = $api->getData('businesses/search', $params);
 print_r($data);
