@@ -1,8 +1,6 @@
 <?php
 namespace mahmoodr786;
 
-require_once 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
-
 use Exception;
 
 /**
