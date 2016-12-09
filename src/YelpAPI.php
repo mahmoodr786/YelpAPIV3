@@ -69,7 +69,6 @@ class YelpAPI
                 $this->token = $token->access_token;
             }
         } else {
-            print_r($token);
             $params = [
                 'headers' => [
                     'Content-Type' => 'application/x-www-form-urlencoded',
